@@ -1,0 +1,53 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    
+} 
+
+.invoice_main{
+    background-color:#eef8ff;
+}
+ 
+.invoice_header{
+    text-align: center;
+    background-color: #228b22;
+    height: 100px;
+    padding-top: 30px;
+    color:white;
+    font-family: 'Playfair Display', serif;
+    
+    
+}
+
+.below_invoice_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.invoice_subject{
+    text-align:center;
+}
+
+.invoice_table{
+    
+    text-align:left;
+}
+table {
+  border: 1px solid black;
+  empty-cells:show;
+  margin-left:auto;margin-right:auto;
+  margin-top:50px;
+  padding:10px;  
+}
+
+td,th{
+    padding:5px;
+
+}
+
+.invoice_footer_note{
+    margin: 100px;
+    margin-left: 200px;
+}

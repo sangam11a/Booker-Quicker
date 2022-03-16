@@ -1,0 +1,90 @@
+
+    body{
+        background-color: #E8E6E6;
+    }
+    table{
+        width:97%;
+        border-collapse:collapse;
+    }
+    
+    tr{
+        border-bottom: 1px solid black;
+    }
+
+     td{
+        padding:10px 28px;
+                
+    }
+    tr:nth-child(even){
+        /* background-color: rgba(29, 28, 26,0.7); */
+        background-color: rgba(171, 163, 211, 0.47);
+        color: #213e47;
+        font-weight:400;
+    }
+    tr:nth-child(odd){
+        
+        background-color: rgb(229, 224, 250);
+        /* rgba(154, 158, 216, 0.55); */
+        color: rgb(32, 28, 28);
+    }
+    tr:first-child{ 
+            font-size: 18px;
+            color: #fff;
+            padding: 8px 16px;
+            line-height: 1.4;
+            background-color: #6c7ae0;
+            
+    }
+    tr:first-child  td:first-child, tr:first-child th:first-child{            
+        border-radius: 10px 0 0 0;  
+    }
+    tr:first-child  td:last-child, tr:first-child th:last-child{            
+        border-radius: 0 10px 0 0;  
+    }
+    tr:last-child  td:first-child{     
+        border-radius:  0 0 0px 10px;  
+    }
+    tr:last-child  td:last-child{            
+        border-radius: 0 0 10px 0;  
+    }
+    tr:last-child{
+        border-bottom: 0px;
+    }
+   .first-  tr:hover{
+    background-color: #6c7ae0;
+    color:white;
+    }
+     tr:hover{
+        color:rgb(15, 14, 14);
+        background-color: rgba(201, 201, 245, 0.8);
+   
+        }
+        .pagination{
+           list-style-type:none;
+           display: flex;
+           text-decoration: none;
+        }
+        .pagination li{         
+           margin-right:12px;         
+           text-decoration: none;
+        }
+        .pagination li a{
+           text-decoration: none;
+           
+           /* white; */
+           padding: 4px 6px;
+           border-radius: 2px;
+           border-top-left-radius: 4px;
+           border-bottom-right-radius: 4px;
+        }
+        .enabled{
+            background-color: rgb(240, 122, 122);
+           color:#260c0c;
+        }
+        .disabled{
+            background-color: rgba(240, 122, 122,0.2);
+            color: rgb(38, 12, 12,0.6);
+        }
+        .time-slots{
+            background-color: white;
+        }
