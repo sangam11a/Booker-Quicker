@@ -1,0 +1,1 @@
+Doctor sathi is an online appointment booking system used to book appointment. Here the doctor can add or remove working days on his own and then choose available time slot.Patient must be registered first in order to place a booking.
